@@ -12,4 +12,5 @@ But if a character is shifted outside the alphabet in either direction it should
 
 const cipher = new ShiftCipher(2);
 cipher.encrypt('I love to code!'); // returns 'K NQXG VQ EQFG!'
+
 cipher.decrypt('K <3 OA RWRRA'); // returns 'i <3 my puppy'
