@@ -8,7 +8,7 @@ Create a class **ShiftCipher** that takes the numerical value of the shift as a 
 In both methods, any character outside the alphabet should remain the same.
 But if a character is shifted outside the alphabet in either direction it should be wrapped around to the other side. For example, encrypting a y with a shift of 4 results in C and decrypting an A with a shift of 1 result in z.
 
-##Example 
+## Example 
 
 const cipher = new ShiftCipher(2);
 cipher.encrypt('I love to code!'); // returns 'K NQXG VQ EQFG!'
