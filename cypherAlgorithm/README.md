@@ -5,6 +5,7 @@ Create a class **ShiftCipher** that takes the numerical value of the shift as a 
 
 ***encrypt***: takes a plain text string and returns a capitalized string with each letter shifted forward in the alphabet based on the set shift value.
 ***decrypt***: takes an encrypted message and returns a lower case string with each letter shifted back in the alphabet based on the set shift value.
+
 In both methods, any character outside the alphabet should remain the same.
 But if a character is shifted outside the alphabet in either direction it should be wrapped around to the other side. For example, encrypting a y with a shift of 4 results in C and decrypting an A with a shift of 1 result in z.
 
